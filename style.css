@@ -67,7 +67,7 @@ header button {
     border-radius: 8px;
     color: whitesmoke;
     align-self: flex-start;
-    padding: 6px 12px;
+    padding: 8px 30px;
 }
 
 header img {
@@ -120,4 +120,33 @@ header img {
 
 .photo-grid {
     display:flex
+}
+
+.quote-container {
+    height: 400px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container .text {
+    display: flex;
+    flex-direction: column;
+    max-width: 55%;
+}
+
+.quote-container .quote {
+    align-self: flex-start;
+    justify-self: flex-start;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-container .author {
+    margin-top: 15px;
+    align-self: flex-end;
+    justify-self: flex-end;
+    font-weight: bold;
+    margin-right: 20px;
 }
