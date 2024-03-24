@@ -191,3 +191,16 @@ header img {
     justify-self: flex-end;
     padding: 8px 30px;
 }
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+footer .foot {
+    color: #f9faf8;
+    font-size: 14px;
+}
