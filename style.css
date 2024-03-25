@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -20,7 +20,7 @@ nav.navbar {
 
 .navbar .logo {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .navbar .container {
@@ -77,7 +77,7 @@ header img {
 
 .hero .hero-main {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 700;
     color: #f9faf8;
 }
 
@@ -97,7 +97,7 @@ header img {
 
 .photo-container .text {
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 700;
     color: #1F2937;
     margin: 30px 0;
 }
@@ -136,10 +136,11 @@ header img {
     max-width: 55%;
 }
 
-.quote-container .quote {
+.quote-container p {
     align-self: flex-start;
     justify-self: flex-start;
     font-size: 36px;
+    font-weight: 200;
     font-style: italic;
 }
 
@@ -147,7 +148,7 @@ header img {
     margin-top: 15px;
     align-self: flex-end;
     justify-self: flex-end;
-    font-weight: bold;
+    font-weight: 500;
     margin-right: 20px;
 }
 
